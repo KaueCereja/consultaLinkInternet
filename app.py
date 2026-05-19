@@ -4,9 +4,6 @@ import re
 
 st.set_page_config(page_title="Links e Internet", layout="wide")
 st.title("Consulta de Link de Dados e Internet - DCO")
-st.markdown("""
-## 📡 Consulta de Links de Dados e Internet
-""")
 
 # ==================== CARREGAMENTO DE DADOS ====================
 @st.cache_data(ttl=3600)
